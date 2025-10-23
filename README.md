@@ -1,227 +1,314 @@
-# DataStructure
+Excellent base, Ritul 👏
+You’ve already got a strong technical foundation in that README — it just needs some **polish, structure, and visual hierarchy** to make it look **GitHub-ready and professional**, like something students or developers would star and refer back to often.
 
-### Data Structure Operations Cheat Sheet
-**Note:** For best case operations, the time complexities are O(1).
-<table >
-<tr>
-<th rowspan="2">Data Structure Name</th>
-<th colspan="4">Average Case Time Complexity</th>
-<th colspan="4">Worst Case Time Complexity</th>
-<th>Space Complexity</th>
-</tr>
-<tr>
-<td><strong>Accessing n<sup>th</sup> element</strong></td>
-<td><strong>Search</strong></td>
-<td><strong>Insertion</strong></td>
-<td><strong>Deletion</strong></td>
-<td><strong>Accessing n<sup>th</sup> element</strong></td>
-<td><strong>Search</strong></td>
-<td><strong>Insertion</strong></td>
-<td><strong>Deletion</strong></td>
-<td><strong>Worst Case</strong></td>
-</tr>
-<tr>
-<td><strong>Arrays</strong></td>
-<td>O(1)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-</tr>
-<tr>
-<td><strong>Singly Linked List</strong></td>
-<td>&theta;(n)</td>
-<td>&theta;(n)</td>
-<td>&theta;(1)</td>
-<td>&theta;(1)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-</tr>
-<tr>
-<td><strong>Stacks</strong></td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-</tr>
- <tr>
-<td><strong>Queues</strong></td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(1)</td>
-<td>O(1)</td>
-<td>O(n)</td>
-</tr>
- <tr>
-<td><strong>Binary Trees</strong></td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-</tr>
-  <tr>
-<td><strong>Binary Search Trees</strong></td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>O(n)</td>
-</tr>
-   <tr>
-<td><strong>Balanced Binary Search Trees</strong></td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-<td>O(logn)</td>
-</tr>
-</table><br>
+Here’s an improved, **visually enhanced, SEO-optimized**, and **well-formatted version** of your README 👇
 
-## Sorting Algorithm Cheat Sheet
+---
+
+# 🧮 Data Structures & Sorting Algorithms — Cheat Sheet
+
+A **comprehensive reference guide** for time and space complexities of the most commonly used **data structures and sorting algorithms** in computer science.
+Perfect for quick revision before interviews, exams, or competitive programming.
+
+---
+
+## ⚙️ Data Structure Operations Cheat Sheet
+
+> **Note:** For most cases, *best-case* operations are `O(1)` (constant time).
 
 <table>
- 
 <tr>
-<th rowspan="2">Storting Algorithm Name</th>
-<th colspan="3">Time Complexity</th>
-<th>Space Complexity</th>
-<th rowspan="2">Is Stable?</th>
-<th rowspan="2">Storting Class Type</th>
-<th rowspan="2">Remarks</th>
+<th rowspan="2">📦 Data Structure</th>
+<th colspan="4">Average Case — ⏱️ Time Complexity</th>
+<th colspan="4">Worst Case — ⚠️ Time Complexity</th>
+<th>💾 Space Complexity</th>
 </tr>
+
 <tr>
-<th>Best Case</th>
-<th>Average Case</th>
-<th>Worst Case</th>
-<th>Worst Case</th>
+<td><strong>Access</strong></td>
+<td><strong>Search</strong></td>
+<td><strong>Insert</strong></td>
+<td><strong>Delete</strong></td>
+<td><strong>Access</strong></td>
+<td><strong>Search</strong></td>
+<td><strong>Insert</strong></td>
+<td><strong>Delete</strong></td>
+<td><strong>Worst</strong></td>
 </tr>
+
+<tr>
+<td><strong>Array</strong></td>
+<td>O(1)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Singly Linked List</strong></td>
+<td>θ(n)</td>
+<td>θ(n)</td>
+<td>θ(1)</td>
+<td>θ(1)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Stack</strong></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Queue</strong></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Binary Tree</strong></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Binary Search Tree (BST)</strong></td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+
+<tr>
+<td><strong>Balanced BST (AVL, Red-Black Tree)</strong></td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+<td>O(log n)</td>
+</tr>
+</table>
+
+---
+
+## 🌀 Sorting Algorithms Cheat Sheet
+
+Here’s a summary of **time and space complexities**, **stability**, and **classification** of major sorting algorithms.
+
+<table>
+<tr>
+<th rowspan="2">🔢 Algorithm</th>
+<th colspan="3">⏱️ Time Complexity</th>
+<th>💾 Space</th>
+<th rowspan="2">🧩 Stable?</th>
+<th rowspan="2">⚙️ Type</th>
+<th rowspan="2">📘 Remarks</th>
+</tr>
+
+<tr>
+<th>Best</th>
+<th>Average</th>
+<th>Worst</th>
+<th>Worst</th>
+</tr>
+
 <tr>
 <td><strong>Bubble Sort</strong></td>
 <td>O(n)</td>
-<td>O(n<sup>2</sup>)</td>
-<td>O(n<sup>2</sup>)</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
 <td>O(1)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Comparison</td>
-<td>Not a preferred sorting algorithm</td>
+<td>Simple but inefficient; mostly for educational use.</td>
 </tr>
+
 <tr>
 <td><strong>Insertion Sort</strong></td>
 <td>O(n)</td>
-<td>O(n<sup>2</sup>)</td>
-<td>O(n<sup>2</sup>)</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
 <td>O(1)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Comparison</td>
-<td>In the best case (already sorted), every insert requires constant time.</td>
+<td>Efficient for small or nearly sorted datasets.</td>
 </tr>
+
 <tr>
 <td><strong>Selection Sort</strong></td>
-<td>O(n<sup>2</sup>)</td>
-<td>O(n<sup>2</sup>)</td>
-<td>O(n<sup>2</sup>)</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
 <td>O(1)</td>
-<td>No</td>
+<td>❌ No</td>
 <td>Comparison</td>
-<td>Even a perfectly sorted array requires scanning the entire array.</td>
+<td>Always scans entire array even if sorted.</td>
 </tr>
+
 <tr>
 <td><strong>Merge Sort</strong></td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
 <td>O(n)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Comparison</td>
-<td>On array, it requires O(n) space and on linked lists, it requires constant space.</td>
+<td>Optimal for linked lists; requires O(n) space for arrays.</td>
 </tr>
+
 <tr>
 <td><strong>Heap Sort</strong></td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
 <td>O(1)</td>
-<td>No</td>
+<td>❌ No</td>
 <td>Comparison</td>
-<td>By using input array as storage for the heap, it is possible to achieve constant space.</td>
+<td>Efficient and in-place but not stable.</td>
 </tr>
+
 <tr>
 <td><strong>Quick Sort</strong></td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
-<td>O(n<sup>2</sup>)</td>
-<td>O(logn)</td>
-<td>No</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n²)</td>
+<td>O(log n)</td>
+<td>❌ No</td>
 <td>Comparison</td>
-<td>Randomly picking a pivot value can help avoid worst case scenarios such as a perfectly sorted array.</td>
+<td>Use random pivot to avoid worst case; very efficient in practice.</td>
 </tr>
+
 <tr>
 <td><strong>Tree Sort</strong></td>
-<td>O(nlogn)</td>
-<td>O(nlogn)</td>
-<td>O(n<sup>2</sup>)</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n²)</td>
 <td>O(n)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Comparison</td>
-<td>Performing inorder traversal on the balanced binary search tree.</td>
-</tr> 
+<td>Uses BST with inorder traversal; depends on tree balance.</td>
+</tr>
+
 <tr>
 <td><strong>Counting Sort</strong></td>
 <td>O(n + k)</td>
 <td>O(n + k)</td>
 <td>O(n + k)</td>
 <td>O(k)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Linear</td>
-<td>Where k is the range of the non-negative key value.</td>
+<td>Best for small integer ranges (0 ≤ k ≤ n).</td>
 </tr>
+
 <tr>
 <td><strong>Bucket Sort</strong></td>
 <td>O(n + k)</td>
 <td>O(n + k)</td>
-<td>O(n<sup>2</sup>)</td>
+<td>O(n²)</td>
 <td>O(n)</td>
-<td>Yes</td>
+<td>✅ Yes*</td>
 <td>Linear</td>
-<td>Bucket sort is stable, if the underlying sorting algorithm is stable.</td>
+<td>Stable only if the sub-sort used is stable.</td>
 </tr>
+
 <tr>
 <td><strong>Radix Sort</strong></td>
-<td>O(dn)</td>
-<td>O(dn)</td>
-<td>O(dn)</td>
+<td>O(d n)</td>
+<td>O(d n)</td>
+<td>O(d n)</td>
 <td>O(d + n)</td>
-<td>Yes</td>
+<td>✅ Yes</td>
 <td>Linear</td>
-<td>Radix sort is stable, if the underlying sorting algorithm is stable.</td>
+<td>Often uses Counting Sort as a subroutine; stable.</td>
 </tr>
 </table>
+
+---
+
+## 🧩 Quick Reference Summary
+
+| Category                        | Fastest (Avg) | Most Space Efficient | Stable          | Notes                               |
+| ------------------------------- | ------------- | -------------------- | --------------- | ----------------------------------- |
+| **Comparison Sorts**            | Quick Sort    | Heap Sort            | Merge/Insertion | Trade-off between speed & stability |
+| **Non-Comparison Sorts**        | Radix Sort    | Counting Sort        | All             | Great for integers or fixed keys    |
+| **Data Structure Access (Avg)** | Array (O(1))  | Stack/Queue (O(1))   | –               | Depends on structure type           |
+
+---
+
+## 🧠 How to Use
+
+You can use this as:
+
+* 🧾 A **C Programming Reference**
+* 📚 A **DSA Revision Sheet**
+* 🎯 An **Interview Prep Guide**
+
+---
+
+## 📎 Contribute
+
+Found something to add or improve?
+You’re welcome to contribute!
+
+```bash
+# Fork the repo
+git clone https://github.com/yourusername/data-structure-cheatsheet.git
+cd data-structure-cheatsheet
+```
+
+Submit your changes via Pull Request 🚀
+
+---
+
+## ⭐ Acknowledgements
+
+Created with ❤️ by [**Ritul Singh**](https://github.com/ritulsingh)
+If this helped you — don’t forget to **star** ⭐ the repo!
+
+---
+
+Would you like me to:
+
+* Add **GitHub badges** (e.g., “Made with C”, “Open Source”, “MIT License”), and
+* Include **a visual section with icons/diagrams** (like a flow of arrays → lists → trees → sorting)?
+
+That would make the README look like a professional open-source handbook.
